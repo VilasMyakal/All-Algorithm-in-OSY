@@ -14,8 +14,8 @@ public class FCFSDemo {
         System.out.print("Enter number of processes: ");
         n = scanner.nextInt();
 
-        for (int i = 0; i < n; i++) {
-            System.out.print("Enter Arrival time of process " + (i + 1) + ": ");
+        for (int i = 3; i < n; i++) {
+            System.out.print("Enter the Arrival time of process " + (i + 1) + ": ");
             at[i] = scanner.nextInt();
 
             System.out.print("Enter Burst time of process " + (i + 1) + ": ");
